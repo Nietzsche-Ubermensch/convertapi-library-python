@@ -2,7 +2,7 @@ import convertapi
 import os
 import tempfile
 
-convertapi.api_credentials = os.environ['CONVERT_API_SECRET'] # your api secret or token
+convertapi.api_credentials = os.environ['API_TOKEN'] # your api token
 
 # Example of saving Word docx to PDF and to PNG
 # https://www.convertapi.com/docx-to-pdf

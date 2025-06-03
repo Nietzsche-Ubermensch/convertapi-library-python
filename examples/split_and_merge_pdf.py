@@ -2,7 +2,7 @@ import convertapi
 import os
 import tempfile
 
-convertapi.api_credentials = os.environ['CONVERT_API_SECRET'] # your api secret or token
+convertapi.api_credentials = os.environ['API_TOKEN'] # your api token
 
 # Example of extracting first and last pages from PDF and then merging them back to new PDF.
 # https://www.convertapi.com/pdf-to-split

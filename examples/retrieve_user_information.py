@@ -1,7 +1,7 @@
 import convertapi
 import os
 
-convertapi.api_credentials = os.environ['CONVERT_API_SECRET'] # your api secret or token
+convertapi.api_credentials = os.environ['API_TOKEN'] # your api token
 
 # Retrieve user information
 # https://www.convertapi.com/doc/user

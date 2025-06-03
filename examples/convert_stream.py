@@ -3,7 +3,7 @@ import os
 import io
 import tempfile
 
-convertapi.api_credentials = os.environ['CONVERT_API_SECRET'] # your api secret or token
+convertapi.api_credentials = os.environ['API_TOKEN'] # your api token
 
 # Example of using content stream to convert to pdf
 # https://www.convertapi.com/txt-to-pdf

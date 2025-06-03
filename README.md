@@ -31,7 +31,7 @@ You can get your API credentials at https://www.convertapi.com/a
 ```python
 import convertapi
 
-convertapi.api_credentials = 'your-api-secret-or-token'
+convertapi.api_credentials = 'api-token'
 ```
 
 #### Proxy configuration
@@ -41,7 +41,7 @@ If you need to use a proxy, you can specify it using `HTTPS_PROXY` environment v
 Example:
 
 ```
-CONVERT_API_SECRET=secret HTTPS_PROXY=https://user:pass@127.0.0.1:9000/ python convert_word_to_pdf_and_png.py
+API_TOKEN=api-token HTTPS_PROXY=https://user:pass@127.0.0.1:9000/ python convert_word_to_pdf_and_png.py
 ```
 
 ### File conversion
@@ -123,7 +123,7 @@ Find more advanced examples in the [/examples](https://github.com/ConvertAPI/con
 
 ## Development
 
-Execute `CONVERT_API_SECRET=your_secret nosetests --nocapture` to run the tests.
+Execute `API_TOKEN=api-token nosetests --nocapture` to run the tests.
 
 ## Contributing
 
